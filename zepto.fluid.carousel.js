@@ -54,7 +54,7 @@
         carousel: function (opts) {
             var options = {
                 circular: true,
-                speed: 2000,
+                speed: 5000,
                 transition: 'ease-in-out',
                 transitionSpeed: 700
             };
