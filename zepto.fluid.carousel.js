@@ -55,8 +55,8 @@
             var options = {
                 circular: true,
                 speed: 5000,
-                transition: 'ease-in-out',
-                transitionSpeed: 700
+                easing: 'ease-in-out',
+                duration: 700
             };
 
             $.extend(options, opts);
@@ -98,8 +98,8 @@
                             left: (percent + '%')
                         },
                         {
-                            duration: options.transitionSpeed,
-                            easing: options.transition,
+                            duration: options.duration,
+                            easing: options.easing,
                             complete: function () {
 
                                 // circular illusion: reset to first slide without user noticing
