@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Fluid Carousel Demo</title>
+	<style type="text/css">
+		body {
+			width: 50%;
+			margin: 0 auto;
+		}
+	</style>
+</head>
+<body>
+	<h1>Resize the window</h1>
+	<div class="viewport">
+		<ul>
+			<li>
+				<h2>Random photo #1</h2>
+				<img src="http://lorempixel.com/g/400/400/technics/1/">
+			</li>
+			<li>
+				<h2>Random photo #2 (Image is clickable)</h2>
+				<a href="http://www.google.com/"><img src="http://lorempixel.com/g/400/400/technics/2/"></a>
+			</li>
+			<li>
+				<h2>Random photo #3</h2>
+				<img src="http://lorempixel.com/g/400/400/technics/3/">
+			</li>
+			<li>
+				<h2>Random photo #4</h2>
+				<img src="http://lorempixel.com/g/400/400/technics/4/">
+			</li>
+			<li>
+				<h2>Random photo #5</h2>
+				<img src="http://lorempixel.com/g/400/400/technics/5/">
+			</li>
+			<li>
+				<h2>Random photo #1</h2>
+				<img src="http://lorempixel.com/g/400/400/technics/6/">
+			</li>
+		</ul>
+	</div>
+	<script src="js/zepto.min.js"></script>
+	<script src="js/zepto.fluid.carousel.js"></script>
+	<script>
+		$('.viewport').carousel();
+	</script>
+</body>
+</html>
