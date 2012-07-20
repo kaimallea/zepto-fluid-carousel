@@ -23,7 +23,7 @@ The following HTML structure is assumed:
 	  </ul>
 	</div>
 
-And the following code would convert it into a carouse:
+And the following code would convert it into a carousel:
 
 `$('.viewport').carousel();`
 
@@ -48,7 +48,7 @@ The delay, in milliseconds, between image transitions
 _default: `5000`_
 
 ### easing
-The type of animation easing to using
+The type of animation easing to use:
 
 _default: `ease-in-out`_
 
