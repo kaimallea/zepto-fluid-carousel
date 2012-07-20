@@ -21,7 +21,8 @@
             'list-style': 'none',
             'position': 'relative',
             'overflow': 'hidden',
-            'left': '0%'
+            'left': '0%',
+            'padding': '0'
         },
 
         pane: {
@@ -45,7 +46,8 @@
             'width': '100%',
             'text-align': 'left',
             'color': '#fff',
-            'background-color': 'rgba(0,0,0,0.75)'
+            'background-color': 'rgba(0,0,0,0.75)',
+            'margin': '0'
         }
     };
 
