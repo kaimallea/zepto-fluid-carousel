@@ -67,7 +67,7 @@
                     $panes = $pane_wrapper.find('li'), // <li> list items, known as $panes
                     current_position = 0, // keep track of current pane in view
                     NUM_PANES = options.circular ? ($panes.length + 1) : $panes.length, // total panes (+1 for circular illusion)
-                    PANE_WRAPPER_WIDTH = (NUM_PANES * 100) + '%', // % width of wrapper (total panes * 100) 
+                    PANE_WRAPPER_WIDTH = (NUM_PANES * 100) + '%', // % width of wrapper (total panes * 100)
                     PANE_WIDTH = (100 / NUM_PANES) + '%'; // % width of each individual pane (100 / total panes)
 
 
@@ -96,7 +96,7 @@
                     $pane_wrapper.animate(
                         {
                             left: (percent + '%')
-                        }, 
+                        },
                         {
                             duration: options.transitionSpeed,
                             easing: options.transition,
@@ -104,7 +104,7 @@
 
                                 // circular illusion: reset to first slide without user noticing
                                 if (options.circular && current_position === (NUM_PANES - 1)) {
-                                    $pane_wrapper.css(css.pane_wrapper); 
+                                    $pane_wrapper.css(css.pane_wrapper);
                                     current_position = 0;
                                     percent = 0;
                                 }
